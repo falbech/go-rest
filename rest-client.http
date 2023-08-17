@@ -1,0 +1,29 @@
+GET http://localhost:8000/api/personalities HTTP/1.1
+content-type: application/json
+
+###
+
+POST http://localhost:8000/api/personalities HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Lorem Ipsum 1",
+    "history": "Mock history"
+}
+
+###
+
+DELETE http://localhost:8000/api/personalities/3 HTTP/1.1
+content-type: application/json
+
+###
+
+
+PUT http://localhost:8000/api/personalities/6 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Lorem Ipsum 6",
+    "history": "Mock history 6"
+}
+###
